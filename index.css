@@ -1,5 +1,5 @@
 :root{
-    --primary-color: rgb(3, 59, 57);
+    --primary-color: rgb(21, 128, 124);
     --primary-color-darker: rgb(213, 231, 236);
 }
 *{
@@ -50,3 +50,15 @@ form button:hover{
     background-color: var(--primary-color-darker);
     transition: 0.6s;
 }
+.valid{
+background-color: rgb(179, 243, 114);
+font-weight: 1000;
+padding: 10px;
+}
+.unvalid{
+    background-color: rgb(247, 91, 91);
+    padding: 10px;
+    font-weight: 1000;
+}
+
+
